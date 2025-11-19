@@ -6,11 +6,12 @@ try:
     if nm < 18:
       print("Go home young one")
     
-    if nm <21:
-        print("Come on in but you know you cant drink right")
+    elif nm <21:
+        print("Come on in but you know you cant drink right?")
     
-    elif nm >= 21:
+    else :
         print("welcome!!!")
     
 except ValueError:
     print("please enter a valid number")
+
